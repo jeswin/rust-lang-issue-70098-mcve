@@ -1,6 +1,3 @@
-export OPENSSL_LIB_DIR='/home/jeswin/temp/openssl/'
-export OPENSSL_INCLUDE_DIR='/home/jeswin/temp/openssl/include/'
-
 echo Compiling armv7-linux-androideabi...
 RUST_BACKTRACE=1 cargo ndk --target armv7-linux-androideabi --android-platform 28 -- build --release
 
