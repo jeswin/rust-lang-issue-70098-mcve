@@ -1,0 +1,13 @@
+[lib]
+name = "gitstacoreapi"
+crate_type = ["staticlib", "cdylib"]
+
+[package]
+name = "gitstacoreapi"
+version = "0.0.1"
+authors = ["Jeswin Kumar<jeswinpk@agilehead.com>"]
+
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2.13", features = ["rt-threaded", "sync", "fs"] }
